@@ -8,7 +8,7 @@ printMessage(function() {
 });
 
 
-function greet(name, callback) {
+function greet(name, callback, money) {
     console.log("Hello, " + name + "!");
     callback(name);
 }
