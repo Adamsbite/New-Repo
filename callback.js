@@ -6,7 +6,7 @@ function printMessage(callback) {
 printMessage(function() {
     console.log("This is a callback function.");
 });
-
+last
 
 function greet(name, callback, money) {
     console.log("Hello, " + name + "!");
