@@ -1,6 +1,6 @@
 function printMessage(callback) {
     console.log("Hello, World!");
-    callback();
+    callback(); 
 }
 
 printMessage(function() {
