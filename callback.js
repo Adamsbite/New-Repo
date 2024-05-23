@@ -1,7 +1,7 @@
 function printMessage(callback) {
     console.log("Hello, World!");
     callback(); 
-}
+} 
 
 printMessage(function() {
     console.log("This is a callback function.");
