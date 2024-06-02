@@ -11,13 +11,13 @@ printMessage(function() {
 function greet(name, callback, money) {
     console.log("Hello, " + name + "!");
     callback(name);
-}
+} 
 
 greet("Alice", function(name) {
     console.log(name + ", nice to meet you!");
 });
 
-
+ 
 function delayedGreeting(callback) {
     setTimeout(function() {
         console.log("Hello, after a delay!");
