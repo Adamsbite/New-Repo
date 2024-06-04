@@ -52,7 +52,7 @@ function performOperation(callback) {
     }
 }
 
-performOperation(function(error, result) {
+performOperation(functi  on(error, result) {
     if (error) {
         console.error("An error occurred:", error);
     } else {
