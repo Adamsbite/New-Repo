@@ -26,7 +26,7 @@ function delayedGreeting(callback) {
 }
 
 delayedGreeting(function() {
-    console.log("This message is displayed after the delay.");
+    console.log("This message is tdisplayed after the delay.");
 });
 
 
