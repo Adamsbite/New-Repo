@@ -3,7 +3,7 @@ function printMessage(callback) {
     callback(); 
 } 
 
-printMessage(function() {
+printMessage(function()  {
     console.log("This is a callback function.");
 });
 
@@ -13,7 +13,7 @@ function greet(name, callback, money) {
     callback(name);
 } 
 
-greet("Alice", function(name) {
+greet("Alice",  function(name) {
     console.log(name + ", nice to meet you!");
 });
 
