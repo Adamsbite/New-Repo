@@ -1,6 +1,7 @@
 function printMessage(callback) {
     console.log("Hello, World!");
     callback(); 
+    
 } 
 
 printMessage(function()  {
@@ -34,6 +35,7 @@ function firstFunction(callback) {
     console.log("First function called.");
     callback();
 }
+
 
 function secondFunction() {
     console.log("Second function called.");
