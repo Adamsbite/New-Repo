@@ -5,7 +5,7 @@ var greet = function() {
 };
 greet(); // Outputs: Welcome to GeeksforGeeks!
 
-
+Best Part. 
 // example 2
 var greet = function(platform) {
     console.log("Welcome to ", platform);
